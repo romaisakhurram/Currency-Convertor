@@ -1,11 +1,11 @@
 const currency = {
     USD:1, //base 
     EUR:0.91,
-    GBP:0.76,
-    IND:74.57,
-    PKR:280,
-    AUD:56.34,
-    CAD:50.7,
+    GBP:0.77,
+    IND:83.99,
+    PKR:27.42,
+    AUD:1.50,
+    CAD:1.36,
 };
 
 
