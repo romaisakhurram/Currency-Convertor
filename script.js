@@ -2,7 +2,7 @@ const currency = {
     USD:1, //base 
     EUR:0.91,
     GBP:0.76,
-    INR:74.57,
+    IND:74.57,
     PKR:280,
     AUD:56.34,
     CAD:50.7,
@@ -20,5 +20,6 @@ document.getElementById("Convertor-form").addEventListener("submit", function (e
     let toAmount = currency[toCurrency];
     let baseAmount = amount / fromAmount;
     let convertedAmount = baseAmount * toAmount;
-    document.getElementById("result").textContent = `Converted Amount:${Math.round(convertedAmount)}`;
+
+    document.getElementById("result").textContent - `Converted Amount:${Math.round(convertedAmount)}`;
 });
