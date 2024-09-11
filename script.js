@@ -1,5 +1,5 @@
 const currency = {
-    USD:1,
+    USD:1, //base 
     EUR:0.91,
     GBP:0.76,
     INR:74.57,
@@ -20,5 +20,5 @@ document.getElementById("Convertor-form").addEventListener("submit", function (e
     let toAmount = currency[toCurrency];
     let baseAmount = amount / fromAmount;
     let convertedAmount = baseAmount * toAmount;
-    document.getElementById("result").textContent = `convertedAmount:${Math.round(convertedAmount)}`;
+    document.getElementById("result").textContent = `Converted Amount:${Math.round(convertedAmount)}`;
 });
