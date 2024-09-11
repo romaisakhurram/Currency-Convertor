@@ -21,5 +21,5 @@ document.getElementById("Convertor-form").addEventListener("submit", function (e
     let baseAmount = amount / fromAmount;
     let convertedAmount = baseAmount * toAmount;
 
-    document.getElementById("result").textContent - `Converted Amount:${Math.round(convertedAmount)}`;
+    document.getElementById("result").textContent = `Converted Amount:${Math.round(convertedAmount)}`;
 });
