@@ -3,7 +3,7 @@ const currency = {
     EUR:0.91,
     GBP:0.77,
     IND:83.99,
-    PKR:27.42,
+    PKR:278.42,
     AUD:1.50,
     CAD:1.36,
 };
